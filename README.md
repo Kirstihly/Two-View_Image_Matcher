@@ -1,8 +1,8 @@
-# Two View Image Matcher
+# Two-View Image Matcher
 
 ## About
 
-This is a simple two view image matcher for finding the correspondences between the two view images, estimating the extrinsics (rotation and translation), and warping one image to another image space. The inputs are query rgb image, query depth information, query camera intrinsic parameters, target rgb image, target rgb depth, and target camera intrinsic parameters. This project is in C++ and requires opencv libraries:
+This is a simple two-view image matcher for finding the correspondences between the two view images, estimating the extrinsics (rotation and translation), and warping one image to another image space. The inputs are query RGB image, query depth information, query camera intrinsic parameters, target RGB image, target depth information, and target camera intrinsic parameters. This project is in C++ and requires opencv libraries:
 
 1. opencv xfeatures2d library to find SURF correspondences and check their validity using Lowe's match filtering and the depth information provided.
 
@@ -12,7 +12,7 @@ This is a simple two view image matcher for finding the correspondences between 
 
 ## Data
 
-Please use the following naming convention to save the data in a same folder.
+Please use the following naming convention to save the data in the same folder.
 
 1. A Target example [RGB: target.jpeg](data/target.jpeg), [depth: target.depth.tiff](data/target.depth.tiff), [intrinsic: target.json](data/target.json)
 
@@ -52,4 +52,4 @@ which you save the [RGB: target.jpeg](data/target.jpeg), [depth: target.depth.ti
 
 Please consider acknowledging this small project. Thank you!
 
-If you have any suggestion, please reach out to hu.leying@columbia.edu
+If you have any suggestions, please reach out to hu.leying@columbia.edu
