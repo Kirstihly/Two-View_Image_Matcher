@@ -16,9 +16,21 @@ Please use the following naming convention to save the data in a same folder.
 
 1. A Target example [RGB: target.jpeg](data/target.jpeg), [depth: target.depth.tiff](data/target.depth.tiff), [intrinsic: target.json](data/target.json)
 
+<p align = 'center'>
+<img src = 'data/target.jpeg' height = '627px'>
+</p>
+
 2. A good Query example respect to the Target [RGB: good.jpeg](data/good.jpeg), [depth: good.depth.tiff](data/good.depth.tiff), [intrinsic: good.json](data/good.json)
 
+<p align = 'center'>
+<img src = 'data/good.jpeg' height = '627px'>
+</p>
+
 3. A bad Query example respect to the Target [RGB: bad.jpeg](data/bad.jpeg), [depth: bad.depth.tiff](data/bad.depth.tiff), [intrinsic: bad.json](data/bad.json)
+
+<p align = 'center'>
+<img src = 'data/bad.jpeg' height = '627px'>
+</p>
 
 ## Instruction
 
@@ -31,3 +43,13 @@ Please use the following naming convention to save the data in a same folder.
 which you save the [RGB: target.jpeg](data/target.jpeg), [depth: target.depth.tiff](data/target.depth.tiff), [intrinsic: target.json](data/target.json), [RGB: good.jpeg](data/good.jpeg), [depth: good.depth.tiff](data/good.depth.tiff), and [intrinsic: good.json](data/good.json) in [folder: ~/data/](data/)
 
 2. The program will print out Intrinsic Matrices, Essential Matrix, Extrinsic Matrix, Homography Matrix in the console, and finally display the warped image of the query projected onto the target. Press any key to save the warped image in cwd, the directory where saved the query and target image with the image name query_warp.jpeg. (e.g. [warp: good_warp.jpeg](data/good_warp.jpeg))
+
+<p align = 'center'>
+<img src = 'data/good_warp.jpeg' height = '627px'>
+</p>
+
+## Attribution
+
+Please consider acknowledging this small project. Thank you!
+
+If you have any suggestion, please reach out to hu.leying@columbia.edu
